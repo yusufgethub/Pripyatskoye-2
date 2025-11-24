@@ -1,6 +1,6 @@
 SatGenDescClass {
  FileName "C:/Users/Mufti/Downloads/PripSATNEW.png"
- sRGBOutput 1
+ sRGBOutput 0
  RenderRoads 1
  Interpolation bilinear
  RoadsAA "8x"
