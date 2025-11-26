@@ -1,0 +1,4 @@
+MatPBRBasic {
+ BCRMap "{4BEE90B88C2E67F3}Assets/Structures/Signs/SignLarge_02/Data/SignLarge_02_180x290_MLOD_BCR.edds"
+ NMOMap "{73362B2A5559356D}Assets/Structures/Signs/SignLarge_02/Data/SignLarge_02_180x290_MLOD_NMO.edds"
+}

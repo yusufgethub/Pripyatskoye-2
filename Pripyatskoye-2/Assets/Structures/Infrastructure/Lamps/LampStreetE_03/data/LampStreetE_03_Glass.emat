@@ -1,0 +1,8 @@
+MatPBRBasic {
+ Emissive 0.655 0.875 0.71 1
+ EmissiveLV 7.5
+ RoughnessScale 0.5
+ MetalnessScale 0
+ EmissiveMap "{6CEE5BDBB5660AB5}Assets/Structures/Infrastructure/Lamps/LampStreetE_03/data/LampStreetE_03_Glass_BCR.edds"
+ BCRMap "{6CEE5BDBB5660AB5}Assets/Structures/Infrastructure/Lamps/LampStreetE_03/data/LampStreetE_03_Glass_BCR.edds"
+}
