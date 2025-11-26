@@ -1,0 +1,4 @@
+MatPBRMulti : "{7A79EF6800EFB278}Assets/Structures/Signs/SignDirection/Data/SignDirectional_02_Cain.emat" {
+ Color_1 0.298 0.298 0.298 1
+ BCR_1 "{14A8955029F8A078}Assets/Structures/Signs/SignDirection/Data/Pripyatskoe2sign.edds"
+}
