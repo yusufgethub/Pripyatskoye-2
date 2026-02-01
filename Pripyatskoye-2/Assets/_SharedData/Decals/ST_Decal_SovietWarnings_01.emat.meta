@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{ECC930ABC4F66EB5}Assets/_SharedData/Decals/ST_Decal_SovietWarnings_01.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

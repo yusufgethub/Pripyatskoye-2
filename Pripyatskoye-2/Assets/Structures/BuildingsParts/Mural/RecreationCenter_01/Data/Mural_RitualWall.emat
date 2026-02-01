@@ -1,0 +1,17 @@
+MatPBRBasic {
+ Color 0 0 0 1
+ AlphaMul 0.8
+ BlendMode AlphaBlend
+ RoughnessScale 1.5
+ MetalnessScale 0
+ BCRMap "{14A9C84267C8B572}Assets/Structures/BuildingsParts/Mural/RecreationCenter_01/Data/ShinRitualBCR.edds"
+ OpacityMap "{31A97BD7B6B48F7A}Assets/Structures/BuildingsParts/Mural/RecreationCenter_01/Data/ShinRitualOPC.edds"
+ GlobalMapsUVTransform MatUVTransform "{649A85F7F312FE27}" {
+ }
+ DetailNormalPower 0.8
+ DetailNormalMap "{EC0DABFCED765F84}Assets/_SharedData/Plaster/ST_Plaster_Bare_04_NMO.edds"
+ DetailNormalMapUVTransform MatUVTransform "{649A85F7E3DFB253}" {
+  TilingU 5
+  TilingV 5
+ }
+}

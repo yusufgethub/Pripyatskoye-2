@@ -1,0 +1,9 @@
+MatPBRDecal {
+ Color 0 0 0 1
+ AlphaTest 0.1
+ AlphaMul 1.5
+ BlendMode AlphaBlend
+ RoughnessScale 0.5
+ OpacityMap "{87EE41D4ED661D36}Assets/_SharedData/Decals/ST_Decal_SovietWarnings_01_A.edds"
+ NMOMap "{A48E34C44C8B741F}Assets/_SharedData/Plaster/ST_Plaster_Clean_White_01_NMO.edds"
+}

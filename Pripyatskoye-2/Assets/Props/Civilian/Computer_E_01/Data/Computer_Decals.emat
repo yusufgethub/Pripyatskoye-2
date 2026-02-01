@@ -1,0 +1,11 @@
+MatPBRDecal {
+ ApplyAlbedoToEmissive 1
+ AlphaTest 0.33
+ AlphaMul 0.638
+ BlendMode None
+ MetalnessScale 0
+ BCRMap "{5E37E557177E998F}Assets/Props/Civilian/Computer_E_01/Data/Computer_E_01_Decals_BCR.edds"
+ OpacityMap "{5C030C5653B13CB6}Assets/Props/Civilian/Computer_E_01/Data/Computer_E_01_Decals_A.edds"
+ NMOMap "{66EF5EC5CE09CB11}Assets/Props/Civilian/Computer_E_01/Data/Computer_E_01_Decals_NMO.edds"
+ DecalCategory Translucent
+}

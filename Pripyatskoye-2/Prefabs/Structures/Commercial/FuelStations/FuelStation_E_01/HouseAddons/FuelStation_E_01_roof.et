@@ -1,0 +1,13 @@
+SCR_DestructibleBuildingEntity : "{09EB9B85A3DE3C83}Prefabs/Structures/Commercial/FuelStations/FuelStation_E_01/HouseAddons/FuelStation_E_01_roof_base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Materials {
+    MaterialAssignClass "{686CED8B75EF6165}" {
+     SourceMaterial "fuelstation_metal"
+     AssignedMaterial "{7A5194D1B9FDB5CC}Assets/Structures/Commercial/FuelStations/FuelStation_E_01/Data/fuelstation_metal_white.emat"
+    }
+   }
+  }
+ }
+}
