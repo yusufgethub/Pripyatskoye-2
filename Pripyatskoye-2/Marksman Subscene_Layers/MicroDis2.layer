@@ -1,0 +1,269 @@
+$grp SCR_DestructibleBuildingEntity : "{14E317F859842B3C}Prefabs/Structures/Houses/Prefabricated/ApartmentBuilding_5I01/ApartmentBuilding_USSR_5I01.et" {
+ {
+  coords 3265.464 0 2404.979
+  angles 0 -124.316 0
+ }
+ {
+  coords 3265.624 0 2685.891
+  angles 0 1.18 0
+ }
+ {
+  coords 3412.856 0 2329.504
+  angles 0 -124.316 0
+ }
+ {
+  coords 3381.463 0 2375.535
+  angles 0 -124.316 0
+ }
+ {
+  coords 2700.284 0 2523.608
+  angles 0 -34.258 0
+ }
+ {
+  coords 2892.686 0 2576.68
+  angles 0 58.005 0
+ }
+}
+$grp SCR_DestructibleBuildingEntity : "{468473FA5BC4773A}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/ApartmentPrefab_USSR_5I01_gray.et" {
+ {
+  coords 3137.466 0 2468.755
+  angles 0 89.596 0
+ }
+ {
+  coords 3137.104 0 2520.081
+  angles 0 89.596 0
+ }
+ {
+  coords 3137.344 0 2485.939
+  angles 0 89.596 0
+ }
+ {
+  coords 3221.47 0 2602.033
+  angles 0 89.596 0
+ }
+ {
+  coords 3221.108 0 2653.359
+  angles 0 89.596 0
+ }
+ {
+  coords 3221.348 0 2619.217
+  angles 0 89.596 0
+ }
+ {
+  coords 3221.594 -0.02 2584.892
+  angles 0 89.596 0
+ }
+ {
+  coords 3401.571 0 2601.028
+  angles 0 179.439 0
+ }
+ {
+  coords 3333.106 -0.02 2600.354
+  angles 0 179.439 0
+ }
+ {
+  coords 3350.246 0 2600.525
+  angles 0 179.439 0
+ }
+ {
+  coords 3367.43 0 2600.694
+  angles 0 179.439 0
+ }
+ {
+  coords 3359.041 0 2249.649
+  angles 0 -34.158 0
+ }
+ {
+  coords 3401.515 0 2278.468
+  angles 0 -34.158 0
+ }
+ {
+  coords 3387.294 0 2268.82
+  angles 0 -34.158 0
+ }
+ {
+  coords 3284.157 0 2166.749
+  angles 0 -34.158 0
+ }
+ {
+  coords 3326.631 0 2195.569
+  angles 0 -34.158 0
+ }
+ {
+  coords 3312.411 0 2185.92
+  angles 0 -34.158 0
+ }
+ {
+  coords 3340.812 0 2205.191
+  angles 0 -34.158 0
+ }
+ {
+  coords 3572.342 0 2493.614
+  angles 0 55.479 0
+ }
+ {
+  coords 3582.081 0 2479.454
+  angles 0 55.479 0
+ }
+ {
+  coords 3552.945 0 2501.133
+  angles 0 -124.469 0
+ }
+ {
+  coords 3543.219 0 2515.302
+  angles 0 -124.469 0
+ }
+ {
+  coords 3532.933 0 2427.001
+  angles 0 -34.158 0
+ }
+ {
+  coords 3504.531 0 2407.73
+  angles 0 -34.158 0
+ }
+ {
+  coords 3518.752 0 2417.379
+  angles 0 -34.158 0
+ }
+ {
+  coords 2750.222 0 2537.06
+  angles 0 146.193 0
+ }
+ {
+  coords 2807.111 0.02 2575.159
+  angles 0 146.193 0
+ }
+ {
+  coords 2778.741 0.02 2556.163
+  angles 0 146.193 0
+ }
+ {
+  coords 2764.463 0.02 2546.6
+  angles 0 146.193 0
+ }
+ {
+  coords 2849.822 0 2603.572
+  angles 0 146.193 0
+ }
+ {
+  coords 2883.538 0 2473.454
+  angles 0 91.144 0
+ }
+ {
+  coords 2882.175 -0.02 2404.999
+  angles 0 91.144 0
+ }
+ {
+  coords 2882.513 0 2422.137
+  angles 0 91.144 0
+ }
+ {
+  coords 2882.855 0 2439.318
+  angles 0 91.144 0
+ }
+ {
+  coords 2829.322 0 2466.234
+  angles 0 147.123 0
+ }
+ {
+  coords 2771.821 -0.02 2429.063
+  angles 0 147.123 0
+ }
+ {
+  coords 2786.215 0 2438.372
+  angles 0 147.123 0
+ }
+ {
+  coords 2800.646 0 2447.701
+  angles 0 147.123 0
+ }
+ {
+  coords 2722.609 0 2465.776
+  angles 0 55.903 0
+ }
+ {
+  coords 2732.222 -0.02 2451.584
+  angles 0 55.903 0
+ }
+ {
+  coords 2705.988 0 2454.752
+  angles 0 55.903 0
+ }
+ {
+  coords 2715.602 -0.02 2440.56
+  angles 0 55.903 0
+ }
+ {
+  coords 2681.811 0 2490.449
+  angles 0 55.903 0
+ }
+ {
+  coords 2691.425 -0.02 2476.257
+  angles 0 55.903 0
+ }
+}
+SCR_DestructibleBuildingEntity : "{736EECBB2B5FB5E7}Prefabs/Structures/Infrastructure/Bus/BusShed_E_01/BusShed_E_01_Base.et" {
+ coords 4996.5 0 4717.867
+}
+$grp SCR_DestructibleBuildingEntity : "{C6FE7446304BA13E}Prefabs/Structures/Houses/Prefabricated/ApartmentPrefab_5I01/ApartmentPrefab_USSR_5I01_blue.et" {
+ {
+  coords 3137.116 0 2537.186
+  angles 0 89.779 0
+ }
+ {
+  coords 3137.247 0 2503.021
+  angles 0 -90.221 0
+ }
+ {
+  coords 3221.12 0 2670.464
+  angles 0 89.779 0
+ }
+ {
+  coords 3221.251 0 2636.299
+  angles 0 -90.221 0
+ }
+ {
+  coords 3384.512 0 2600.838
+  angles 0 -0.378 0
+ }
+ {
+  coords 3373.145 0 2259.248
+  angles 0 146.025 0
+ }
+ {
+  coords 3298.261 0 2176.348
+  angles 0 146.025 0
+ }
+ {
+  coords 3476.661 0 2372.383
+  angles 0 146.025 0
+ }
+ {
+  coords 3462.461 0 2362.815
+  angles 0 146.025 0
+ }
+ {
+  coords 2821.397 0.02 2584.566
+  angles 0 146.376 0
+ }
+ {
+  coords 2792.948 0.02 2565.648
+  angles 0 -33.624 0
+ }
+ {
+  coords 2864.108 0 2612.979
+  angles 0 146.376 0
+ }
+ {
+  coords 2835.659 0 2594.061
+  angles 0 -33.624 0
+ }
+ {
+  coords 2883.219 0 2456.396
+  angles 0 -88.673 0
+ }
+ {
+  coords 2815.005 0 2456.955
+  angles 0 -32.694 0
+ }
+}
