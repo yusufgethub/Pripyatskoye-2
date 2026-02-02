@@ -1,0 +1,25 @@
+MatPBRBasic {
+ Color 0.133 0.136 0.12 1
+ Emissive 0.699 1 0.801 0
+ EmissiveLV 5.619
+ CastShadow 0
+ OccludeRain 0
+ OccludeWetness 0
+ NoDecals 1
+ GlobalLayerAngleStart 1.84
+ GlobalLayerAngleEnd 0
+ GlobalLayerContrast 0
+ GlobalLayerGlobalAO 0
+ GlobalLayerHeightPower 0
+ RoughnessScale 0.255
+ MetalnessScale 0
+ EmissiveMap "{336CA1DB9CA41614}Textures/bashar.edds"
+ GlobalLayerBCRMap 
+ GlobalLayerNMOMap 
+ GlobalLayerNoiseMap 
+ BCRMap "{93AAE26DAA1992E6}Assets/_SharedData/Glass/ST_Glass_Streaks_01_NoColor_BCR.edds"
+ OpacityMap 
+ NMOMap 
+ GlobalMapsUVTransform MatUVTransform "{6238B67200D97FAF}" {
+ }
+}

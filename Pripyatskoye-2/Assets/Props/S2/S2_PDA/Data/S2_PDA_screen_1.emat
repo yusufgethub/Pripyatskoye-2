@@ -1,0 +1,14 @@
+MatPBRBasic {
+ Emissive 0.039 0.039 0.039 0
+ EmissiveLV 4.952
+ GlobalLayerUVTransform MatUVTransform "{64CE849A91719064}" {
+  OffsetU -0.258
+ }
+ EmissiveMap "{3B6BBA6F81E5885A}Assets/Props/S2/S2_PDA/Data/soy.edds"
+ BCRMap "{3B6BBA6F81E5885A}Assets/Props/S2/S2_PDA/Data/soy.edds"
+ GlobalMapsUVTransform MatUVTransform "{64CE849AA98BDA53}" {
+  TilingV 0.5
+  OffsetU 0.1
+  OffsetV 0.114
+ }
+}

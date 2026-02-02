@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9525320A451E7700}Assets/Structures/BuildingsParts/Mural/RecreationCenter_01/Data/Mural_RitualWall.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

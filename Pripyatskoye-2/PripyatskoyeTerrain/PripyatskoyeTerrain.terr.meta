@@ -3,7 +3,7 @@ MetaFileClass {
  Configurations {
   TerrainResourceClass PC {
    BlocksPerTile 4
-   TerrainSurfaceBits 8
+   TerrainSurfaceBits 5
    TilesCount 400
    LayerSource SourceTextureClass "{66ED63B304B02831}" : "{A59F335F96C4442F}Configs/System/ResourceTypes/PC/TextureTerrainLayer.conf" {
    }

@@ -1,0 +1,23 @@
+MatPBRDecal {
+ Color 0.29 0.204 0.133 1
+ SpecularIBL 0.591 0.591 0.591 1
+ SpecularMul 0.24
+ AlphaTest 0.1
+ AlphaMul 1.86
+ BlendMode AlphaBlend
+ RoughnessScale 5
+ MetalnessScale 0.923
+ AOScale 0.461
+ BCRMap "{984CB574827AB75F}Assets/Decals/Blood/Data/BloodStains_01_BCR.edds"
+ OpacityMap "{628EF85E2F77EA4A}Assets/Decals/Blood/Data/BloodStains_01_A.edds"
+ NormalPower 4
+ NMOMap "{A0940EE65B0DE5C1}Assets/Decals/Blood/Data/BloodStains_01_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{5F26D217FE30AFE4}" {
+  TilingU 0.4
+  TilingV 0.4
+  OffsetU -0.016
+  OffsetV -0.402
+ }
+ GBufferNormal 1
+ NormalCombinePower 4
+}

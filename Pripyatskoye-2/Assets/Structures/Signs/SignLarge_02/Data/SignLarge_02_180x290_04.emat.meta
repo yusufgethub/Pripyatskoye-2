@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5F0F2A6CF0FA121C}Assets/Structures/Signs/SignLarge_02/Data/SignLarge_02_180x290_04.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,755 @@
+AudioClass {
+ signals {
+  SignalClass "27661" {
+   id 27661
+   name "Signal Occlusion"
+   tl 80.714 -187.648
+   res "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+   inputsport {
+    23 52
+   }
+   outputsport {
+    37
+   }
+   inputvalues {
+    1 1000
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 10000
+   }
+   path "{A45B14CDEA2D5DCD}Sounds/_SharedData/Signals/Props/Props_Occlusion.sig"
+  }
+  SignalClass "28685" {
+   id 28685
+   name "Signal 28"
+   tl 315.179 -93.571
+   res "{E1863EBC26C9EEF8}Sounds/Compositions/Slotted/SlotFlatSmall/Compositions_Radio_Chatter.sig"
+   inputsport {
+    1 2
+   }
+   outputsport {
+    5 6 7 8
+   }
+   inputvalues {
+    0 0
+   }
+   inputvaluesmin {
+    0 0
+   }
+   inputvaluesmax {
+    1 1
+   }
+   path "{E1863EBC26C9EEF8}Sounds/Compositions/Slotted/SlotFlatSmall/Compositions_Radio_Chatter.sig"
+  }
+  SignalClass "35853" {
+   id 35853
+   name "Signal Reverb"
+   tl 768 128
+   res "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+   inputsport {
+    1 35 112
+   }
+   outputsport {
+    39 105 107 106 110
+   }
+   inputvalues {
+    40 0 0
+   }
+   inputvaluesmin {
+    0 0 0
+   }
+   inputvaluesmax {
+    100 1 16000
+   }
+   path "{76CBB40EF7F227B6}Sounds/_SharedData/Signals/Reverb/Reverb_Base.sig"
+  }
+ }
+ sounds {
+  SoundClass "3081" {
+   id 3081
+   name "SOUND_RADIO_ESTABLISH_ACTION"
+   version 5
+   tl 316.904 56.131
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:5" {
+       id 28685
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "4114:65" {
+       id 4114
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   outState 32779
+   outStatePort 79879
+  }
+  SoundClass "12297" {
+   id 12297
+   name "SOUND_RADIO_CHATTER_RU"
+   version 5
+   tl 308.473 404.861
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:7" {
+       id 28685
+       port 7
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "14354:65" {
+       id 14354
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   outState 32779
+   outStatePort 79879
+  }
+  SoundClass "13321" {
+   id 13321
+   name "SOUND_RADIO_CHATTER_US"
+   version 5
+   tl 315 226.389
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:6" {
+       id 28685
+       port 6
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "7186:65" {
+       id 7186
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   outState 32779
+   outStatePort 79879
+  }
+  SoundClass "23561" {
+   id 23561
+   name "SOUND_RADIO_CHATTER_EV"
+   version 5
+   tl 307.778 579.444
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "28685:8" {
+       id 28685
+       port 8
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "22546:65" {
+       id 22546
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    1 0
+   }
+   outState 32779
+   outStatePort 79879
+  }
+ }
+ mixers {
+  MixerClass "32779" {
+   id 32779
+   name "OutputState"
+   version 4
+   tl 1024 0
+   res "{B764D803219C775E}Sounds/FinalMix.afm"
+   ins {
+    ConnectionsClass "con:79879" {
+     id 79879
+     links {
+      ConnectionClass "3081:65" {
+       id 3081
+       port 65
+      }
+      ConnectionClass "13321:65" {
+       id 13321
+       port 65
+      }
+      ConnectionClass "12297:65" {
+       id 12297
+       port 65
+      }
+      ConnectionClass "23561:65" {
+       id 23561
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:300039" {
+     id 300039
+     links {
+      ConnectionClass "31773:65" {
+       id 31773
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:301063" {
+     id 301063
+     links {
+      ConnectionClass "34845:65" {
+       id 34845
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:302087" {
+     id 302087
+     links {
+      ConnectionClass "33821:65" {
+       id 33821
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    234889216 0
+   }
+   path "{B764D803219C775E}Sounds/FinalMix.afm"
+   inputs {
+    "WPN_Handling" "WPN_Shots" "WPN_Explosions" "WNP_BulletHits" "CHAR" "ENV_AMB_2D" "VEH_Animations" "Impacts" "Dialog" "ENV_Doors" "VEH_Engine" "VEH_Tires" "VON" "SFX" "SFX_Reverb_OBSOLETE" "VON_Reverb_Small" "Dialog_Reverb" "Impacts_EXT" "ENV_AMB_3D" "WPN_SonicCracks" "CHAR_Gear" "PA" "SFX_Reverb_Exterior" "ENV_AMB_3D_Reverb_Exterior" "SFX_Direct" "SFX_Reverb_Small" "SFX_Reverb_Medium" "SFX_Reverb_Large" "WPN_Shots_Player" "Dialog_Reverb_Small" "Dialog_Reverb_Medium" "Dialog_Reverb_Large" "WPN_TravelingProjectile" "Dialog_Delay_Exterior" "SFX_Reverb_InCabin" "VON_Reverb_Medium" "VON_Reverb_Large"
+   }
+  }
+ }
+ shaders {
+  ShaderClass "4114" {
+   id 4114
+   name "Shader 4"
+   version 5
+   tl 80.111 54.444
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "6172:65" {
+       id 6172
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "5139:65" {
+       id 5139
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "30741:65" {
+       id 30741
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "2052:65" {
+       id 2052
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+  ShaderClass "7186" {
+   id 7186
+   name "Shader 7"
+   version 5
+   tl 79.556 227.278
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "6172:65" {
+       id 6172
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "5139:65" {
+       id 5139
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "30741:65" {
+       id 30741
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "8196:65" {
+       id 8196
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+  ShaderClass "14354" {
+   id 14354
+   name "Shader 14"
+   version 5
+   tl 76.806 404.028
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "6172:65" {
+       id 6172
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "5139:65" {
+       id 5139
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "30741:65" {
+       id 30741
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "9220:65" {
+       id 9220
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+  ShaderClass "22546" {
+   id 22546
+   name "Shader 15"
+   version 5
+   tl 76.806 579.028
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "6172:65" {
+       id 6172
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "5139:65" {
+       id 5139
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "30741:65" {
+       id 30741
+       port 65
+      }
+     }
+    }
+    ConnectionsClass "con:64" {
+     id 64
+     links {
+      ConnectionClass "21508:65" {
+       id 21508
+       port 65
+      }
+     }
+    }
+   }
+   pi {
+    23 0
+   }
+  }
+ }
+ amplitudes {
+  AmplitudeClass "5139" : "{C97DEFA6B88F6DE9}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-55LUFS_to_-50LUFS.conf" {
+   id 5139
+   version 5
+   tl 81.032 -329.103
+   ctl 0 -21
+   parent "{C97DEFA6B88F6DE9}Sounds/_SharedData/Configs/Amplitude/_SharedData/Amplitude_-55LUFS_to_-50LUFS.conf"
+  }
+ }
+ frequency {
+  FrequencyClass "30741" : "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf" {
+   id 30741
+   version 5
+   tl 82.5 -258
+   parent "{0005FE42A6D80399}Sounds/_SharedData/Configs/Frequency/_SharedData/Frequency_DynamicUpdate.conf"
+   ins {
+    ConnectionsClass "con:4" {
+     id 4
+     links {
+      ConnectionClass "27661:37" {
+       id 27661
+       port 37
+      }
+     }
+    }
+   }
+   pi {
+    16 0
+   }
+   pu {
+    16 0
+   }
+  }
+ }
+ banks_local {
+  BankLocalClass "2052" {
+   id 2052
+   name "Radio_Loop"
+   comment "-44 LUFS"
+   version 7
+   tl -246.349 54.524
+   ctl 0 -21
+   Volume 1
+   "Loop count" 255
+   "Infinite loop" 1
+   "Random start offset" 1
+   Samples {
+    AudioBankSampleClass "UI_Campaign_Radio_Loop.wav" {
+     Filename "{DDC6CC4F9B80A7C7}Sounds/UI/Samples/Campaign/UI_Campaign_Radio_Loop.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "8196" {
+   id 8196
+   name "Radio_Loop_Ambient_US"
+   comment "-31 LUFS"
+   version 7
+   tl -252.361 224.028
+   ctl 0 -21
+   Volume -12
+   "Loop count" 255
+   "Infinite loop" 1
+   "Random start offset" 1
+   Samples {
+    AudioBankSampleClass "Radio_Chatter_Loop_US.wav" {
+     Filename "{F512748B0BE191A4}Sounds/Compositions/Slotted/SlotFlatSmall/Samples/Radio_Chatter_Loop_US.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "9220" {
+   id 9220
+   name "Radio_Loop_Ambient_RU"
+   comment "-30 LUFS"
+   version 7
+   tl -250.416 404.306
+   ctl 0 -21
+   Volume -13
+   "Loop count" 255
+   "Infinite loop" 1
+   "Random start offset" 1
+   Samples {
+    AudioBankSampleClass "Radio_Chatter_Loop_RU.wav" {
+     Filename "{CB855BE18DF32505}Sounds/Compositions/Slotted/SlotFlatSmall/Samples/Radio_Chatter_Loop_RU.wav"
+     Probability 100
+     Index 1
+     SampleMetadata ""
+    }
+   }
+  }
+  BankLocalClass "21508" {
+   id 21508
+   name "Radio_Loop_Everon"
+   comment "-35 LUFS"
+   version 7
+   tl -259.444 580.377
+   ctl 0 -21
+   Volume -15
+   "Loop count" 255
+   "Infinite loop" 1
+   "Terminate Loop" 0
+   Selection SequenceFromFirst
+   Samples {
+    AudioBankSampleClass "longestradiofileeverproduced.wav" {
+     Filename "{D85F6BC867C62AC0}Audio/longestradiofileeverproduced.wav"
+     Probability 100
+     Index 0
+     SampleMetadata ""
+    }
+   }
+  }
+ }
+ spatialities {
+  SpatialityClass "6172" {
+   id 6172
+   name "Spatiality"
+   version 5
+   tl 81.047 -402.071
+   SpatialFactorSource Curve
+   SFCurve {
+    CurvePoint "1" {
+     X 1
+     Y 0.801
+     Shape Exponential
+     Modifier 2
+    }
+    CurvePoint "2" {
+     X 1.502
+     Y 1
+    }
+   }
+  }
+ }
+ auxOuts {
+  AuxOutClass "31773" {
+   id 31773
+   name "AuxOut Reverb INT Small"
+   version 5
+   tl 768 320
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "3081:5" {
+       id 3081
+       port 5
+      }
+      ConnectionClass "13321:5" {
+       id 13321
+       port 5
+      }
+      ConnectionClass "12297:5" {
+       id 12297
+       port 5
+      }
+      ConnectionClass "23561:5" {
+       id 23561
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "35853:107" {
+       id 35853
+       port 107
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "35853:39" {
+       id 35853
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 300039
+  }
+  AuxOutClass "33821" {
+   id 33821
+   name "AuxOut Revverb INT Large"
+   version 5
+   tl 769.521 574.479
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "3081:5" {
+       id 3081
+       port 5
+      }
+      ConnectionClass "13321:5" {
+       id 13321
+       port 5
+      }
+      ConnectionClass "12297:5" {
+       id 12297
+       port 5
+      }
+      ConnectionClass "23561:5" {
+       id 23561
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "35853:110" {
+       id 35853
+       port 110
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "35853:39" {
+       id 35853
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 302087
+  }
+  AuxOutClass "34845" {
+   id 34845
+   name "AuxOut Reverb INT Medium"
+   version 5
+   tl 769.521 446.479
+   ins {
+    ConnectionsClass "con:0" {
+     id 0
+     links {
+      ConnectionClass "3081:5" {
+       id 3081
+       port 5
+      }
+      ConnectionClass "13321:5" {
+       id 13321
+       port 5
+      }
+      ConnectionClass "12297:5" {
+       id 12297
+       port 5
+      }
+      ConnectionClass "23561:5" {
+       id 23561
+       port 5
+      }
+     }
+    }
+    ConnectionsClass "con:1" {
+     id 1
+     links {
+      ConnectionClass "35853:106" {
+       id 35853
+       port 106
+      }
+     }
+    }
+    ConnectionsClass "con:2" {
+     id 2
+     links {
+      ConnectionClass "35853:39" {
+       id 35853
+       port 39
+      }
+     }
+    }
+   }
+   pi {
+    7 0
+   }
+   pu {
+    6 0
+   }
+   OSPort 301063
+  }
+ }
+ version 1
+}
